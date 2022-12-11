@@ -1,0 +1,97 @@
+.ContainerDetail{
+    position: relative;
+    padding-top: 20px;
+    text-align: center;
+    margin: 100px auto;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.ItemDetail {
+    max-width: 1300px;
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+    "imgDiv combo combo"
+    "imgDiv descripcion descripcion"
+    "precioDetail descripcion descripcion"
+    "contadorDetail descripcion descripcion";
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #e07924; 
+    box-shadow: 0 5px 15px #e07924;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.combo{
+    grid-area: combo;
+    margin: 0;
+    text-align: center;
+}
+
+.descripcion{
+    grid-area: descripcion;
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+}
+
+.precioDetail{
+    grid-area: precioDetail;
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+}
+
+.contadorDetail{
+    grid-area: contadorDetail;
+    text-align: center;
+}
+
+.imgDiv{
+    grid-area: imgDiv;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.imgCombo{
+    width: 100%;
+}
+
+.irAlCarrito{
+    font-size: 25px;
+    text-align: center;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5); 
+    color: white;
+    background-color:rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px #fff;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.SeguirComparando{
+    font-size: 25px;
+    text-align: center;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5); 
+    color: white;
+    background-color:rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px #fff;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bottons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
