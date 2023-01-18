@@ -1,22 +1,30 @@
-El proyecto trata de una hamburgueseria donde por el momento se extraen los datos de los productos de una api local, un archivo jsx.
+# Burger 360
+## Descripción
+El proyecto final trata de una hamburgueseria donde se extraen los datos de firebase.
 
-La aplicacion se dividen en dos componentes principales: 
+La aplicacion permite seleccionar los productos, visualizar los detalles y agregarlos al carrito, solicitar datos del cliente y simular la compra de productos.
 
-1) Navbar
-2) ItemListContainer
-3) ItemDetailContainer
+#Dependencias
+-Interfaz realizada con React JS - Create React App
+-Estilos con CCS
+-Ruteo con React Router Dom
+-Backend con Firebase
 
-De esos componentes pricipales se anexan 5 componentes adicionales para el funcionamiento de la aplicacion. 
+# Descargar el proyecto
 
-1) Widget
-2) ItemCount
-3) Item
-4) ItemList
-5) ItemDetail
+Instalación
+Para descargar el proyecto pueden descargar el repositorio en formato zip_
 
-Las librerias que se usaron fueron:
+1 - Ir a "Code" -> "Dowload Zip"
 
-1) react-icons
-    se uso esta libreria para los iconos de la Navbar.
-2) react-router-dom
-    se uso esta libreria para el uso de la rutas de navegacion
+2 - Descomprimir el archivo
+
+3 - En la carpeta donde se encuentra en "package.json" ejecutar en una terminal:
+
+npm install
+4 - Una vez finalizado, ejecutar:
+
+npm start
+Se abre una pestaña del navegador en el puerto 3000:
+
+Sino copiar esta URL y pegarla en el navegador: http://localhost:3000

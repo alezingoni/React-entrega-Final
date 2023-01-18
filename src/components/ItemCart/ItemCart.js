@@ -8,9 +8,8 @@ const ItemCart = ({menu}) => {
     const {removeItem} = useCartContext();
 
     return (
-        <div className="cartContenedor">
+        <div className="itenCartContenedor">
             <div className="cartItem">
-
                 <div className="menuCart">
                     <img src={ menu.imagen } alt={ menu.nombre} style={{width: '100%'}} />
                 </div>

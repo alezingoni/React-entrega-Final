@@ -1,13 +1,28 @@
-.Widget{
-    max-width: 70%;
-  }
-  
-  .Link svg {
+  .widget, .widget svg {
+    background-color: #000;
+    
+    font-size: 1.4em;
     fill: #e07924;
-    margin-right: 0.5rem;
-  }
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    
+    }
   
   .totalItem {
-    color: #e07924;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom:22px;
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
   }
-  
