@@ -4,11 +4,12 @@ El proyecto final trata de una hamburgueseria donde se extraen los datos de fire
 
 La aplicacion permite seleccionar los productos, visualizar los detalles y agregarlos al carrito, solicitar datos del cliente y simular la compra de productos.
 
-#Dependencias
--Interfaz realizada con React JS - Create React App
--Estilos con CCS
--Ruteo con React Router Dom
--Backend con Firebase
+# Dependencias
+- Interfaz realizada con React JS 
+- Create React App
+- Estilos con CCS
+- Ruteo con React Router Dom
+- Backend con Firebase
 
 # Descargar el proyecto
 
